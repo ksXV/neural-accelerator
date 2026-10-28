@@ -6,3 +6,4 @@ synth/
 *.vcd
 *.history
 fpga_project/
+systolic_mem_files/
