@@ -1,0 +1,8 @@
+obj_dir/
+skills/
+synth/
+.agents/
+.gemini/
+*.vcd
+*.history
+fpga_project/

@@ -1,0 +1,50 @@
+# Tang Nano 9K constraints
+# Device: GW1NR-LV9QN88PC6/I5
+# Debug build: 16-bit c_o subset
+
+# Clock and reset
+IO_LOC "clk_i" 52;
+IO_PORT "clk_i" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "rst_n_i" 3;
+IO_PORT "rst_n_i" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+# drain_i: 16 packed input bits
+IO_LOC "start_i"  4;
+
+
+# c_o: 16-bit debug output
+IO_LOC "c_o[0]"  49;
+IO_LOC "c_o[1]"  50;
+IO_LOC "c_o[2]"  51;
+IO_LOC "c_o[3]"  53;
+IO_LOC "c_o[4]"  54;
+IO_LOC "c_o[5]"  55;
+IO_LOC "c_o[6]"  56;
+IO_LOC "c_o[7]"  57;
+IO_LOC "c_o[8]"  59;
+IO_LOC "c_o[9]"  60;
+IO_LOC "c_o[10]" 61;
+IO_LOC "c_o[11]" 62;
+IO_LOC "c_o[12]" 63;
+IO_LOC "c_o[13]" 68;
+IO_LOC "c_o[14]" 69;
+IO_LOC "c_o[15]" 70;
+
+# LVCMOS33 output configuration
+IO_PORT "c_o[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[4]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[5]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[6]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[7]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[8]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[9]"  IO_TYPE=LVCMOS33;
+IO_PORT "c_o[10]" IO_TYPE=LVCMOS33;
+IO_PORT "c_o[11]" IO_TYPE=LVCMOS33;
+IO_PORT "c_o[12]" IO_TYPE=LVCMOS33;
+IO_PORT "c_o[13]" IO_TYPE=LVCMOS33;
+IO_PORT "c_o[14]" IO_TYPE=LVCMOS33;
+IO_PORT "c_o[15]" IO_TYPE=LVCMOS33;
